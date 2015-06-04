@@ -1,0 +1,122 @@
+@import "font.otf";
+/**Header**/
+.header {
+	background-image:url(bg.png);
+	height:40%;
+	width:100%;
+	color:#fff;
+	text-align:center;
+	display:table;
+	top:0;
+	margin:0;
+	left:0;
+	margin-left:0;
+}
+
+.header h1,h3 {
+	display:table-cell;
+	vertical-align:middle;
+	text-align:center;
+	width:60%;
+}
+
+/**Sweet bod**/
+body {
+	font-family:'Apex New',sans-serif;
+	margin:0;
+	padding:0;
+}
+
+body a {
+	color:#fff;
+	font-weight:600;
+	font-size:50px;
+}
+
+/**Left-Numbers**/
+.number {
+	padding-left:15px;
+	font-size:25px;
+}
+
+/**Instructions**/
+
+.instructions {
+	width:80%;
+	margin:0 auto;
+	padding-bottom:25px;
+}
+
+.instructions h3 {
+	padding-top:20px;
+	padding-bottom:10px;
+	text-align:center;
+	width:100%;
+}
+
+.instructions p {
+	color:#585757;
+}
+/**JS-Less Codebox**/
+.codebox {
+	border:1px solid #ababab;
+	background-color:#e2e2e2;
+	width:80%;
+	text-align:center;
+	overflow:auto;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-radius:5px;
+	color:#6c6c6c;
+}
+/**Download Button**/
+.btn {
+	background:#3498db;
+	background-image:-webkit-linear-gradient(top,#3498db,#2980b9);
+	background-image:-moz-linear-gradient(top,#3498db,#2980b9);
+	background-image:-ms-linear-gradient(top,#3498db,#2980b9);
+	background-image:-o-linear-gradient(top,#3498db,#2980b9);
+	background-image:linear-gradient(to bottom,#3498db,#2980b9);
+	-webkit-border-radius:10;
+	-moz-border-radius:10;
+	border-radius:10px;
+	color:#fff;
+	font-size:20px;
+	padding:10px 20px;
+	text-decoration:none;
+	margin:0 auto;
+	width:80%;
+}
+
+.btn:hover {
+	background:#3cb0fd;
+	background-image:-webkit-linear-gradient(top,#3cb0fd,#3498db);
+	background-image:-moz-linear-gradient(top,#3cb0fd,#3498db);
+	background-image:-ms-linear-gradient(top,#3cb0fd,#3498db);
+	background-image:-o-linear-gradient(top,#3cb0fd,#3498db);
+	background-image:linear-gradient(to bottom,#3cb0fd,#3498db);
+	text-decoration:none;
+}
+/**Footer**/
+
+.footer {
+	width:100%;
+	padding-top:25px;
+	text-align:center;
+	text-decoration:none;
+	color:#6f6f6f;
+}
+
+.footer a {
+	text-decoration:none;
+	color:#6f6f6f;
+	font-size:20px;
+	font-weight:400;
+}
+
+pre {
+display: inline;
+ margin: 0; 
+}
